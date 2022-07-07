@@ -1,0 +1,6 @@
+<div class="card">
+    <div class="card_image"> <img [src]="card.image||defaultImage" /> </div>
+    <div class="card_title title-white">
+        <p><span *ngIf="card.title">{{card.title}} </span><span *ngIf="card.username"><br> written by: {{card.username}}</span></p>
+    </div>
+</div>
